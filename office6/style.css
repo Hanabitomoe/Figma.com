@@ -1,0 +1,18 @@
+.box{
+    font-size: 1.5rem;
+}
+.content{
+    display: flex;
+    text-transform: capitalize;
+    /* justify-content: space-around; */
+    background-color: red;
+}
+.box{
+    background-color: cyan;
+}
+.box1,.box3{
+    flex-grow: 1;
+}
+b2{
+    flex-grow: 2;
+}
